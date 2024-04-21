@@ -95,7 +95,32 @@ header{
 }
 .icon div{
 
-    font-size: 25px;
+    font-size: 28px;
+}
+.icon div a{
+    position: relative;
+}
+.icon div span{
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 1px 5px;
+    border-radius: 50%;
+    background-color: rgba(255, 15, 7, 0.979);
+    color: white;
+}
+#span1{
+    position: absolute;
+    top: 73px;
+    left: 1489px;
+}#span2{
+    position: absolute;
+    top: 73px;
+    left: 1537px;
+}#span3{
+    position: absolute;
+    top: 73px;
+    left: 1587px;
 }
 
 .user-icon div.vr-Line{

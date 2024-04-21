@@ -1,6 +1,7 @@
 @import'../variable.css';
 #one{
     padding-top: 30px;
+    padding-bottom: 30px;
     background-color: rgb(241, 231, 231);
     
 }
@@ -10,9 +11,11 @@
     "i1 i1 i2"
     "i1 i1 i3";
     grid-gap: 20px;
+
 }
 .child1 img{
     border-radius: 7px;
+    height: 100%;
 }
 
 .child1 button{
@@ -26,30 +29,30 @@
     border: none;
 
 }
-.item1{
+.child1 div.item1{
     grid-area: i1;
 }
 
-.item1 div{
+.child1 div.item1 div{
     position: absolute;
     top: 350px;
     left: 700px;
 }
-.item1 p{
+.child1 div.item1 p{
     font-size: 20px;
 }
-.item1 h1{
+.child1 div.item1 h1{
     font-size: 42px;
 }
-.item1 span{
+.child1 div.item1 span{
     font-size: 33px;
     color: rgba(255, 15, 7, 0.644);
     font-weight: bold;
 }
-.item2{
+.child1 div.item2{
     grid-area: i2;
 }
-.item2 div{
+.child1 div.item2 div{
     position: absolute;
     top: 325px;
     left: 1240px;
@@ -59,36 +62,144 @@
     font-weight: bold;
 }
 
-.item2 span{
+.child1 div.item2 span{
     font-size: 21px;
     font-weight: bold;
     color: rgba(255, 15, 7, 0.644);
 }
 
-.item2 a{
+.child1 div.item2 a{
     text-decoration: underline;
 }
 
-.item3{
+.child1 div.item3{
     grid-area: i3;
 }
-.item3 div{
+.child1 div.item3 div{
     position: absolute;
     top: 610px;
     left: 1400px;
 }
-.item3 p{
+.child1 div.item3 p{
     font-size: 24px;
     font-weight: bold;
 }
 
-.item3 span{
+.child1 div.item3 span{
     font-size: 21px;
     font-weight: bold;
     color: rgba(255, 15, 7, 0.644);
 }
 
-.item3 a{
+.child1 div.item3 a{
     text-decoration: underline;
 }
+.child2{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;    
+}
+
+.child2 div img{
+    border-radius: 8px;
+}
+.child2 span{
+    font-weight: bold;
+}
+.child2 div.item1 span{
+    position: absolute;
+    left: 110px;
+    top: 980px;
+}
+.child2 div.item2 span{
+    position: absolute;
+    left: 333px;
+    top: 980px;
+}.child2 div.item3 span{
+    position: absolute;
+    left: 560px;
+    top: 980px;
+}.child2 div.item4 span{
+    position: absolute;
+    left: 783px;
+    top: 980px;
+}.child2 div.item5 span{
+    position: absolute;
+    left: 1017px;
+    top: 980px;
+}.child2 div.item6 span{
+    position: absolute;
+    left: 1240px;
+    top: 980px;
+}.child2 div.item7 span{
+    position: absolute;
+    left: 1510px;
+    top: 980px;
+}
+
+#two{
+    margin: 50px 0px;
+}
+.free-shipping-flexbox{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(255, 15, 7, 0.644);
+    border-radius: 5px;
+    padding: 25px 60px;
+    align-items: center;
+}
+.free-shipping-flexbox div.vr-Line{
+    height: 35px;
+}
+.free-shipping-flexbox div.free-shipping-tag{
+    font-size: 31px;
+    font-weight: bold;
+}
+.free-shipping-flexbox div.amount-tag{
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.product-catagory{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.product-catagory div{
+    flex: .32;
+}
+
+.product-catagory img{
+    border-radius: 6px;
+    /* position: relative; */
+}
+.product-catagory span{
+    color: rgba(255, 15, 7, 0.644);
+    font-size: 22px;
+    font-weight: bold;
+}
+.product-catagory a{
+    text-decoration: underline;
+}
+.product-catagory div div.div-one{
+    position: absolute;
+    top: 1335px;
+    left: 380px;
+}
+.product-catagory div div.div-two{
+    position: absolute;
+    top: 1335px;
+    left: 895px;
+}
+.product-catagory div div.div-three{
+    position: absolute;
+    top: 1335px;
+    left: 1420px;
+}
+
+
+
+
+
 
