@@ -1,0 +1,94 @@
+@import'../variable.css';
+#one{
+    padding-top: 30px;
+    background-color: rgb(241, 231, 231);
+    
+}
+.child1 {
+    display: grid;
+    grid-template-areas: 
+    "i1 i1 i2"
+    "i1 i1 i3";
+    grid-gap: 20px;
+}
+.child1 img{
+    border-radius: 7px;
+}
+
+.child1 button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 15, 7, 0.644);
+    border: none;
+
+}
+.item1{
+    grid-area: i1;
+}
+
+.item1 div{
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+.item1 p{
+    font-size: 20px;
+}
+.item1 h1{
+    font-size: 42px;
+}
+.item1 span{
+    font-size: 33px;
+    color: rgba(255, 15, 7, 0.644);
+    font-weight: bold;
+}
+.item2{
+    grid-area: i2;
+}
+.item2 div{
+    position: absolute;
+    top: 325px;
+    left: 1240px;
+}
+.item2 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.item2 span{
+    font-size: 21px;
+    font-weight: bold;
+    color: rgba(255, 15, 7, 0.644);
+}
+
+.item2 a{
+    text-decoration: underline;
+}
+
+.item3{
+    grid-area: i3;
+}
+.item3 div{
+    position: absolute;
+    top: 610px;
+    left: 1400px;
+}
+.item3 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.item3 span{
+    font-size: 21px;
+    font-weight: bold;
+    color: rgba(255, 15, 7, 0.644);
+}
+
+.item3 a{
+    text-decoration: underline;
+}
+

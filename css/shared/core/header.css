@@ -1,0 +1,138 @@
+header{
+    background-color: white;
+}
+.headerNav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(59, 57, 57, 0.63);
+    padding: 8px;
+}
+.header-top{
+    border-bottom: .5px solid  rgb(221, 212, 212);
+    margin-bottom: 15px;
+}
+.rightNav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+}
+.rightNav-child{
+    display: flex;
+}
+.language-Selector img{
+    width: 25px;
+    display: inline-block;
+}
+.rightNav-child div a{
+    color: rgba(59, 57, 57, 0.63);
+}
+
+.vr-Line{
+    height: 16px;
+    width: 1px;
+    background-color: rgba(59, 57, 57, 0.63);
+    margin:5px 10px;
+}
+
+/* ------------- header top ------------- */
+
+
+.middle-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+.logo{
+    width:20%;
+    margin: 8px;
+}
+.search-var{
+    flex: 1;
+    padding: 15px;
+}
+.search-var input{
+    width: 80%;
+    height: 45px;
+    border: 1px solid rgb(221, 212, 212);
+    border-radius: 7px;
+    flex: 1;
+    font-size: 18px;
+    color: rgba(59, 57, 57, 0.753);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-var a{
+    
+    display: inline-block;
+    background-color: rgba(255, 15, 7, 0.644);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    width: 120px;
+}
+.user-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.login-register{
+    padding: 10px;
+}
+.login-register a{
+    display: inline-block;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.icon div{
+
+    font-size: 25px;
+}
+
+.user-icon div.vr-Line{
+    height: 35px;
+    width: 1px;
+    background-color: rgba(59, 57, 57, 0.63);
+    margin:5px 10px;
+}
+
+/* ------------- header middle ------------- */
+
+.bottom-container-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin: 15px 0;
+    padding: 5px;
+    align-items: center;
+}
+.header-bottom{
+    border-top: .5px solid  rgb(221, 212, 212);
+}
+.categories-pages{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pages li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+.categories-pages div.vr-Line{
+    height: 23px;
+    margin-left: 20px;
+}
+
+/* ------------- header bottom ------------- */
