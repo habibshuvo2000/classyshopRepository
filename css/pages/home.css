@@ -171,8 +171,7 @@
 }
 
 .product-catagory img{
-    border-radius: 6px;
-    /* position: relative; */
+    border-radius: 6px;    
 }
 .product-catagory span{
     color: rgba(255, 15, 7, 0.644);
