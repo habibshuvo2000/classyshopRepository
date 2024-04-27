@@ -1,28 +1,32 @@
-header{
-    background-color: white;
-}
+
 .headerNav{
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: rgba(59, 57, 57, 0.63);
     padding: 8px;
 }
+
 .header-top{
     border-bottom: .5px solid  rgb(221, 212, 212);
     margin-bottom: 15px;
 }
 .rightNav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-weight: bold;
     align-items: center;
 }
 .rightNav-child{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 .language-Selector img{
-    width: 25px;
+    width: 24px;
     display: inline-block;
 }
 .rightNav-child div a{
@@ -39,11 +43,14 @@ header{
     margin:5px 10px;
 }
 
+
+
 /* ------------- header top ------------- */
 
 
 .middle-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 45px;
 }
@@ -85,6 +92,7 @@ header{
 }
 .user-icon{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px;
     padding: 10px;
@@ -107,10 +115,8 @@ header{
 }
 .icon div{
 
-    font-size: 28px;
-}
-.icon div a{
     position: relative;
+    font-size: 28px;
 }
 .icon div span{
     font-size: 16px;
@@ -123,16 +129,16 @@ header{
 }
 #span1{
     position: absolute;
-    top: 73px;
-    left: 1489px;
+    top: -9px;
+    left: 16px;
 }#span2{
     position: absolute;
-    top: 73px;
-    left: 1537px;
+    top: -9px;
+    left: 16px;
 }#span3{
     position: absolute;
-    top: 73px;
-    left: 1587px;
+    top: -9px;
+    left: 18px;
 }
 
 .user-icon div.vr-Line{
@@ -175,4 +181,136 @@ header{
     margin-left: 20px;
 }
 
+
+
+
 /* ------------- header bottom ------------- */
+
+
+
+/* css for mobile */
+
+
+
+@media screen and (max-width:600px) {
+
+
+    /* ------------------header-top------------------- */
+
+
+    .headerNav{
+        margin: 0 auto;
+        justify-content: space-around;
+        position: relative;
+        padding: 0;
+    }
+    .leftNav{
+        font-size: 11px;
+        position: absolute;
+        top: 45px;
+        display: none;
+    }
+    .rightNav{
+        font-size: 12px;
+    }
+    .header-top{
+        margin-bottom: 0;
+    }
+    .user-icon{
+        padding: 0;
+        margin: 0;
+    }
+    .language-Selector img{
+        width: 18px;
+        }
+
+
+    /* ------------------header-middle------------------- */
+
+   .header-middle{
+    position: relative;
+   }
+    .login-register{
+        font-size: 14px;
+    }
+
+
+    .icon div{
+        font-size: 16px;
+    }
+
+
+    .logo{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        flex: 1;
+    }
+    .logo img{
+        width: 74%;
+    }
+    .user-icon div.vr-Line {
+        height: 30px;
+        margin: 3px 6px;
+        display: flex;
+        align-items: center;
+    }
+    .icon div span {
+        font-size: 13px;
+    }
+    #span1{
+        font-size: 10px;
+        top: -7px;
+        left: 7px;
+        padding: 1px 4px;
+    }
+    #span2{
+        font-size: 10px;
+        top: -7px;
+        left: 7px;
+        padding: 1px 4px;
+        
+    }#span3{
+        font-size: 10px;
+        top: -7px;
+        left: 9px;
+        padding: 1px 4px;
+    }
+    .search-var{
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        padding: 3px;
+        align-items: center;
+    }
+    .search-var input{
+        width: 450px;
+        height: 28px;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+
+    .search-var a{
+        padding: 5.5px 4px;
+        width: 70px;
+        font-size: 11px;
+    }
+
+
+    /* ------------------header-bottom------------------- */
+    .header-bottom{
+        font-size: 11px;
+    }
+    .categories a #menu-var1{
+        position: absolute;
+        top: 37px;
+        left: 10px;
+    }
+}
+
+
+
+/* css for tablet */
+@media screen and (max-width:900px) and (min-width:601px) {
+
+}
