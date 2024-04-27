@@ -229,31 +229,35 @@
 
    .header-middle{
     position: relative;
+    padding-left: 15px;
    }
     .login-register{
         font-size: 14px;
+
     }
 
 
     .icon div{
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
     .logo{
-        display: flex;
-        align-items: center;
+       
         font-size: 25px;
         flex: 1;
+        /* border: 1px solid; */
+        
     }
     .logo img{
-        width: 74%;
+        width: 120%;
     }
     .user-icon div.vr-Line {
-        height: 30px;
-        margin: 3px 6px;
         display: flex;
         align-items: center;
+        height: 29px;
+        margin: 3px 6px 3px 1px;
+        
     }
     .icon div span {
         font-size: 13px;
@@ -282,12 +286,14 @@
         left: 30px;
         padding: 3px;
         align-items: center;
+        width: 80%;
+        /* border: 1px solid; */
     }
     .search-var input{
-        width: 450px;
+        width: 66%;
         height: 28px;
         font-size: 11px;
-        margin-right: 5px;
+        margin-right: 5%;
     }
 
     .search-var a{
@@ -298,14 +304,86 @@
 
 
     /* ------------------header-bottom------------------- */
+
+
     .header-bottom{
         font-size: 11px;
+        
     }
     .categories a #menu-var1{
         position: absolute;
-        top: 37px;
+        top: 39px;
         left: 10px;
     }
+    .categories a span{
+        display: none;
+    }
+    .header-bottom .vr-Line{
+        display: none;
+    }
+    .pages{
+        display: none;
+    }
+   
+
+    #sixth{
+        max-width: 1500vh;
+        min-height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1 1 1;
+        display: none;
+        
+    }
+    .sidevar2{
+        width: 80%;
+        background-color: white;
+        flex: 1;
+    }
+    .sidevar2 .heading{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 12px 18px;
+        border-bottom: 1px solid rgba(196, 191, 191, 0.596);
+        margin-bottom: 7px;
+    }
+    .sidevar2 .heading a{
+        font-size: 19px;
+    }
+    .sidevar2 .li-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 170px;
+        font-size: 13px;
+    }
+    .sidevar2 .li-flex a{
+        width: 100px;
+    }
+    .sidevar2 .Menu{
+        padding-left: 5px;
+        border-bottom: 1px solid rgba(196, 191, 191, 0.596);
+    }
+   
+    .discount-tag{
+        border-bottom: 1px solid rgba(196, 191, 191, 0.596);
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+    .freeDelivery{
+        margin: 10px;
+    }
+    #sixth .backgroundColor{
+        background-color: rgba(0, 0, 0, 0.658);
+        width: 100vh;
+    }
+
+
 }
 
 
