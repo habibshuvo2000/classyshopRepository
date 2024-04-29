@@ -349,14 +349,13 @@
 
 
 
- 
 
 
 
 
 
 /* css for tablet */
-@media screen and (max-width:600px){
+@media screen and (max-width:450px){
     /* -------------- Section one ------------------ */
 
     .child1 {
@@ -365,31 +364,29 @@
             "i1"
             "i2"
             "i3";
-        grid-gap: 20px;
+        grid-gap: 10px;
     }
     .child1 div.item1 {
         grid-area: i1;
+        text-align: center;
     }
     .child1 .item1 div{
         position: absolute;
-        top: 30px;
-        left: 131px;
+        top: 1%;
+        left: 50%;
         padding-right: 5px;
-        
     }
     .child1 div.item1 p{
-        float: right;
         font-size: 14px;
     }
     .child1 div.item1 h1{
-        float: right;
-        font-size: 24px;
+        font-size: 18px;
         text-align: center;
     }
     .child1 button{
-        float: right;
         font-size: 14px;
         padding: 5px 10px;
+        font-weight: normal;
     }
 
     .child1 div.item1 span{
@@ -400,7 +397,76 @@
     .child1 div.item2 {
         grid-area: i2;
     }
+    
+    .child1 div.item2 div{
+        top: 59px;
+        left: 25px;
+    }
+    .item2 p{
+        font-size: 18px;
+    }
+    
+    .child1 div.item2 span{
+        font-size: 18px;
+    }
     .child1 div.item3 {
         grid-area: i3;
+    }
+    .child1 div.item3 div{
+        top: 59px;
+        right: 25px;
+    }
+    .child1 div.item3 p{
+        font-size: 18px;
+    }
+    
+    .child1 div.item3 span{
+        font-size: 18px;
+    }
+    .child1 a{
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width:399px) and (min-width:310px) {
+    .child1 .item1 div .p1{
+        display: none;
+        margin-bottom: 5px;
+    }
+    .child1 .item1 div .p2{
+        font-size: 11px;
+    }
+
+    .child1 .item1 div .p2 span{
+        font-size: 13px;
+    }
+    .child1 .item1 div button{
+        font-size: 11px;
+        padding: 3px 5px;
+    }
+
+    .child1 .item1 h1{
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    .child1 .item1 div{
+        position: absolute;
+        top: 5%;
+        left: 45%;
+    }
+    .br1{
+        display: none;
+    }
+
+    .child1 div.item2 div{
+        top: 40px;
+        left: 25px;
+    }
+    .child1 div.item3 div{
+        top: 40px;
+        right: 25px;
     }
 }
