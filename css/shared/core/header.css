@@ -85,11 +85,14 @@
     display: inline-block;
     background-color: rgba(255, 15, 7, 0.644);
     color: aliceblue;
-    padding: 10px;
     border-radius: 7px;
     text-align: center;
     width: 120px;
+    height: 45px;
     transition: background-color .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .search-var a:hover{
     
@@ -330,6 +333,7 @@
     .search-var a{
         padding: 5.5px 4px;
         width: 70px;
+        height: 28px;
         font-size: 11px;
     }
 
@@ -343,7 +347,7 @@
     }
     .categories a #menu-var1{
         position: absolute;
-        top: 9%;
+        top: 50px;
         left: 10px;
     }
     .categories a span{
