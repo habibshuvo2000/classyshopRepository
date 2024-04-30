@@ -65,6 +65,7 @@
 .search-var{
     flex: 1;
     padding: 15px;
+    display: flex;
 }
 .search-var input{
     width: 80%;
